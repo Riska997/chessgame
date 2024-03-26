@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+  background-color: #; /* Light gray background for even rows and even columns */
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #a09797; /* Dark gray background for odd rows and odd columns */
+}
